@@ -1,29 +1,37 @@
-var name = "Cak Ali";
+//variabel dengan keyword let
+let name ='Cak ALi'
 console.log(name);
 
-name =  "Indi"
+name = 'Indi';
 console.log(name);
 
-//init variabel
-var griting;
-console.log(griting);
-griting = 'Hello Boy';
-console.log(griting);
 
-//aturan penulisan variabel yg diperbolehkan
-var variabel;
-var _variabel;
-var vari_abel;
-var $variabel;
-var variabel1234;
-var var123abel567;
+//membuat variabel dengan constanta, tidak dapat melakukan perubahan
+// const nama = 'Cak Ali';
+// console.log(nama);
 
-//multi word
-var firstname;
-var firstName;
-var FirstName;
-first_name;
+// const nama = "Indi";
+// console.log(nama)
 
-//tidak diperbolehkan 
-var 12343var;
-var -vari_abel;
+//variabel dengan tipe objek
+const person = {
+    name : "Cak Ali",
+    age : 30
+}
+
+//cara mengganti nilai pada objek persor
+person.name = "ALI";
+person.age = 29;
+console.log(person);
+
+//cara mengganti nilai variabel dengan tipe array
+numbers = {
+    a : 1,
+    b : 2,
+    c : 3
+
+} 
+
+//tes ubah
+numbers.a = 200
+console.log(numbers)
